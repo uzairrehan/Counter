@@ -8,7 +8,6 @@ function addElement() {
 let displayValue = display[0].value;   
 if (!isNaN(displayValue)){
     number[0].innerHTML = Number(number[0].innerHTML) + Number(displayValue);
-    
     error[0].innerHTML = "" ;
 }
 else{

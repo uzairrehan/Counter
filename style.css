@@ -1,0 +1,14 @@
+
+
+*{
+    background-color: #00002c;
+    color: #00ffff;
+}
+
+#number{
+    background-color: #008000;
+
+}
+#error{
+    background-color: #ff0000;
+}
