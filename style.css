@@ -1,7 +1,7 @@
 * {
-    background-color: #00002c;
     color: #ffffff;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #00002c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -58,8 +58,9 @@ button:active {
     border-radius: 10px;
     padding: 10px 25px;
     background: transparent;
-    max-width: 250px;
+    max-width: 180px;
     line-height: 2em;
+    font-size: 18px;
 }
 
 .input:active {
@@ -67,23 +68,44 @@ button:active {
 }
 
 
-.main{
+.main {
     width: 100%;
-  
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     gap: 20px;
+
+
 }
-.buttons-div{
+
+.buttons-div {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-h1{
+
+h1 {
+    margin: 0;
     height: 40px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .buttons-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 0px !important;
+    }
+
+    button span {
+        padding: 0px;
+        line-height: 2em;
+    }
 }
