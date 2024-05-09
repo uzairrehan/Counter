@@ -1,26 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculate</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculate</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="Calculator_512.webp" type="image/x-icon" />
 </head>
+
 <body>
-    
-    <input type="text" id="input" placeholder="Enter only number">
-    <button onclick="addElement()">plus</button>
-    <button onclick="minusElement()" >Minus</button>
-    <!-- <button onclick="clear()"></button> -->
-   
-    <h1 id="number"></h1>
-    <h1 id="error"></h1>
 
+  <div class="main">
 
+  <input class="input" type="text" id="input" placeholder="Enter only number..." />
 
-    <script src="app.js"></script>
+  <button onclick="addElement()">
+    <span class="text">Add</span>
+  </button>
+
+  <button onclick="minusElement()">
+    <span class="text">Minus</span>
+  </button>
+
+  <button onclick="clear()">
+    <span class="text">Clear</span>
+  </button>
+
+  <h1 id="number"></h1>
+  <h1 id="error"></h1>
+</div>
+  <script src="app.js"></script>
 </body>
+
 </html>
