@@ -1,6 +1,7 @@
 * {
     background-color: #00002c;
     color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -57,7 +58,8 @@ button:active {
     border-radius: 10px;
     padding: 10px 25px;
     background: transparent;
-    max-width: 190px;
+    max-width: 250px;
+    line-height: 2em;
 }
 
 .input:active {
@@ -66,5 +68,22 @@ button:active {
 
 
 .main{
-    
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+.buttons-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+h1{
+    height: 40px;
 }
